@@ -15,8 +15,8 @@ You need to setup paths to download data and usernames which used in conversatio
 If you want a chatbot (latest cell), you also need setup FB page, API keys, SSL and async call model.
 
 The model is based on <a href="https://arxiv.org/pdf/1408.5882.pdf">Convolutional Neural Networks for Sentence Classification by Yoon Kim</a> with static word2vec embedding trained on text received.
-It performs over 90% on IMDB 50000 movie reviews however for recall your emotion statement it needs to be trained on numbers of conversations.
+It performs over 90% on IMDB 50000 movie reviews, however for recall your emotion statement it needs to be trained on big number of conversations.
 
-There are some problems with existing Keras implementation - some of them use deprecated Graph API, some don't use external static word2vec, some use Convolution1D, single category, most did not ready for call via web service.
+There are some problems with other existing Keras implementations - some of them use deprecated Graph API, some don't use external static word2vec, some limited to Convolution1D, single category, most did not ready for call via web service.
 
 Possible improvements : add learning from aditional parameters like text replied, external word2vec or glove, mixed emotion state, Redis for async call.
