@@ -1,0 +1,13 @@
+fbmq==2.0.1
+Flask==0.12
+gensim==0.13.4.1
+Keras==1.2.1
+nltk==3.2.2
+numpy==1.12.0
+pandas==0.19.2
+Werkzeug==0.11.15
+beautifulsoup4==4.5.3
+jupyter==1.0.0
+keras-tqdm==1.0.7
+dateparser==0.5.1
+pyOpenSSL==16.2.0
